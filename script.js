@@ -34,7 +34,6 @@ let addToDivLocation = document.querySelector('#blocks');
 addToDivLocation.innerHTML += `<span onclick="deleteGreenBlock(event)"><div class="block green-fill"></div></span>`
 }
 
-
 //create function that adds yellow block when yellow btn is clicked on
 //then gets removed when yellow block icon is clicked
 function handleYellowClick() {
